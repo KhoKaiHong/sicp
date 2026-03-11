@@ -35,7 +35,7 @@
 (define (square x) (* x x))
 
 ; Function for square root, starting with guess of 1
-(define (sqrt x) (sqrt-iter 1 x))
+(define (sqrt x) (sqrt-iter 1.0 x))
 
 (trace sqrt-iter)
 
